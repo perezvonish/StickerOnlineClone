@@ -7,13 +7,13 @@ a {
 a:hover {
     text-decoration: none;
     font-weight: 600;
-    color: #ffc107 !important;
+    color: #aaf277 !important;
 }
 
 li a:link {
     text-decoration: none;
     font-weight: 600;
-    color: #ffc107;
+    color: #aaf277;
 }
 
 li a:visited {
@@ -25,13 +25,13 @@ li a:visited {
 li a:hover {
     text-decoration: none;
     font-weight: 600;
-    color: #ffc107 !important;
+    color: #aaf277 !important;
 }
 
 li a:active {
         text-decoration: none;
     font-weight: 600;
-    color: #ffc107;
+    color: #aaf277;
 }
 
 
@@ -71,7 +71,9 @@ th {
 .categoryItem a:hover {
     text-decoration: none !important;
     font-weight: 600;
-    color: #ffc107 !important;
+    color: #aaf277 !important;
+    height: 182px;
+    width: 112px;
 }
 
 .newsblockItem {
@@ -82,10 +84,48 @@ th {
     text-align: center;
     width: 295px;
     height: 345px;
-    background-color: #ffc107;
+    background-color: #aaf277;
 }
 
 .newsblockItem p {
     margin: 10px;
     text-align: left;
+}
+
+.button-buy {
+    background-color: #aaf277;
+}
+
+
+.form_radio_btn {
+	display: inline-block;
+	margin-right: 10px;
+}
+.form_radio_btn input[type=radio] {
+	display: none;
+}
+.form_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 15px;
+	line-height: 34px;
+	border: 1px solid black;
+	border-radius: 6px;
+	user-select: none;
+}
+ 
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+	background: #aaf277;
+}
+ 
+/* Hover */
+.form_radio_btn label:hover {
+	color: #666;
+}
+ 
+/* Disabled */
+.form_radio_btn input[type=radio]:disabled + label {
+	background: #efefef;
+	color: #666;
 }
