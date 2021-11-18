@@ -15,50 +15,43 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-      <div class="container-lg d-flex justify-content-between">
-        <a class="navbar-brand m-3" href="index.html"
-          ><img src="images/brandLogo.png" alt=""
-        /></a>
-        <button
-          class="navbar-toggler bg-light"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+      <div class="container-xxl">
+        <a class="navbar-brand  m-5" href="index.html"><img src="images/brandLogo.png" alt="brand"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link " href="services.html">Наклейки на заказ</a>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="catalog.html">Магазин</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="delivery.html">Оплата и доставка</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="requirments.html">Требования к макетам</a>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
-          </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Поиск по каталогу"
-              aria-label="Search"
-            />
-            <button class="btn btn-light" type="submit">Поиск</button>
-            <a href="#"
-              ><img
-                src="images/user.png"
-                alt=""
-                style="width: 50px; height: 50px"
-            /></a>
-          </form>
+          <div class="col d-flex justify-content-center align-content-center">
+            <div class="d-flex flex-column justify-content-evenly align-items-center" >
+              <div class="row">
+                <ul class="navbar-nav text-center mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link " href="services.html">Наклейки на заказ</a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="catalog.html">Магазин</a></li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="delivery.html">Оплата и доставка</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="requirments.html">Требования к макетам</a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+                </ul>
+              </div>
+              <div class="d-flex align-items-md-baseline align-items-lg-center" style="width: 300px;">
+                <input class="form-control mr-sm-2 my-sm-2 align-self-center" type="search" placeholder="Введите название..." aria-label="Search">
+                <button class="btn btn-warning m-2 my-2 my-sm-2" type="submit">Поиск</button>
+              </div>
+              <div class="d-flex justify-content-evenly">
+                <a class="p-3" type="submit" >
+                  <img src="images/user.png" style="height: 50px;" alt="">
+                </a>
+                <a class="p-3" type="submit" >
+                  <img src="images/shopping-basket.png" style="height: 50px;" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
@@ -205,5 +198,11 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/faqScript.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/faqScript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
   </body>
 </html>

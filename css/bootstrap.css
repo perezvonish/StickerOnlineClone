@@ -3133,7 +3133,7 @@ textarea.form-control-lg {
   border-color: #aaf277;
 }
 .btn-warning:hover {
-  color: #000;
+  color: #000 !important;
   background-color: #aaf277;
   border-color: #aaf277;
 }
@@ -3921,7 +3921,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #aaf277;
+  color: white;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3931,7 +3931,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #0a58ca;
+  color: white;
 }
 .nav-link.disabled {
   color: #6c757d;
